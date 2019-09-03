@@ -27,3 +27,7 @@ object sorgo {
 }
 
 // despues, agregar mijo y canelones
+object mijo {
+method energiaPorGramo() { return 0 }
+
+}
