@@ -1,8 +1,8 @@
 
 object pepon {
-	// aca falta un atributo
-	
-	method comer(cosa, cuanto) { }  // implementar
+	var energia = 0
+	method energia() { return energia }
+	method comer(cosa, cuanto) { energia += cosa.energiaPorGramo() }  // implementar
 	method volar(kms) { }           // implementar
 	method haceLoQueQuieras() { }   // implementar
 }
