@@ -1,5 +1,9 @@
+import comidas.*
+import pepita.*
+import roque.*
+import masAves.*
 
-test "testX" {
+test "roque.trabaja" {
 
 	assert.that(true)
 
